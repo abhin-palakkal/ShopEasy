@@ -332,3 +332,67 @@ nav {
   height: inherit;
   /* background-color: green; */
 }
+.contact {
+  width: 100%;
+  height: 60vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+.contact-one {
+  width: 25%;
+  height: inherit;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+.contact-one p {
+  color: rgb(203, 203, 203);
+}
+.contact-two {
+  width: 20%;
+  height: inherit;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  gap: 20px;
+}
+.contact-two p {
+  color: rgb(203, 203, 203);
+}
+.contact-three {
+  width: 25%;
+  height: inherit;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.contact-three p {
+  color: rgb(203, 203, 203);
+}
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: rgb(119, 118, 118);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+hr {
+  border: none;
+  height: 0.2px;
+  background-color: #ccc;
+}
