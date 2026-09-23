@@ -14,6 +14,7 @@ nav {
   display: flex;
   position: fixed;
   top: 0;
+  z-index: 1000;
 }
 .navbar-one {
   width: 40%;
@@ -214,7 +215,7 @@ nav {
 }
 .product-wrap {
   width: 100%;
-  height: 100vh;
+  height: 220vh;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -283,4 +284,51 @@ nav {
   position: absolute;
   bottom: 15px;
   right: 25px;
+}
+.about {
+  width: 100%;
+  height: 90vh;
+  background-color: rgb(231, 232, 231);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.about-two {
+  width: 50%;
+  height: inherit;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.about-two h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.about-two h1 {
+  font-size: 47px;
+  font-weight: 600;
+}
+.about-two p {
+  font-size: 20px;
+  color: rgb(100, 100, 100);
+  line-height: 40px;
+}
+.about-two button {
+  width: 200px;
+  height: 40px;
+  outline: none;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: 400;
+}
+.about-one {
+  width: 30%;
+  height: inherit;
+  /* background-color: green; */
 }
